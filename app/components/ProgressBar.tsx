@@ -36,7 +36,7 @@ export const ProgressBar: React.FC<InputProps> = ({
             bg-amber-300
             `
                 ,label===-1 && 'w-full bg-red-900'
-                ,label===0 && 'w-full bg-gray-200'
+                ,label===0 && 'w-0 bg-gray-200'
                 ,label===1 && 'w-1/3 bg-red-400'
                 ,label===2 && 'w-2/3 bg-yellow-400'
                 ,label===3 && 'w-full bg-green-400'
